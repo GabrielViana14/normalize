@@ -1,0 +1,57 @@
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background :#0010CD;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: Left;
+
+}
+#atras{
+    position: fixed;
+    top: 0px;
+    right:2px;
+    margin: 0px;
+    z-index: -1;
+    background :#0010CD;
+}
+#retper{
+    position: absolute;
+    width: 98%;
+    height: 90%;
+    left: 10px;
+    top: 40px;
+    background: rgba(0, 255, 102, 0.38);
+}
+#correto{
+    position: fixed;
+    width: 200px;
+    height: 201px;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:300px;
+    margin: auto;
+}
+#botao{
+
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    right: 20px;
+    bottom:50px;
+    margin-left:35%;
+    background-color: #D2BF19;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-color:#FFFFFF;
+}
