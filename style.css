@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+html img{
+
+    -webkit-user-drag: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(67, 63, 239, 0.53), rgba(67, 63, 239, 0.53)), #5EE0FC;
+    background-image: url(img/aa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+main{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 60%;
+}
+
+.btn{
+    background-color: #D2BF19;
+    width: 40%;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 3.5em;
+    text-align: center;
+    color:#FFFFFF;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background-color: #e4da87;
+}
+
+/*  Pergunta 1  */
+
+.pergunta{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background: rgba(0, 255, 102, 0.38);
+    padding: 1.5em;
+    border-radius: 2px;
+}
+
+.pergunta div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.fundo_pergunta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.fundo_pergunta img{
+    width: 40vw;
+}
+
+
+.respostas{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.opcoes{
+    width: 100%;
+    background: rgba(0, 255, 102, 0.38);
+    padding: 12px 1.5em;
+}
+
+.opcoes a{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*  Modal - Opção Correta   */
+
+.container-modal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 80vh;
+    background: rgba(0, 255, 102, 0.38);
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.container-modal img{
+    width: 30%;
+}
+
+#botao{
+    position: absolute;
+    bottom: 0;
+    right: -40%;
+    transform: translate( -90%, 0%);
+    width: 30%;
+}
