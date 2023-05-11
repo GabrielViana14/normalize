@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</style>
+</head>
+<body>
+
+    <main>
+        <div class="pergunta">
+            <div>
+                <h1> Pergunta 1 </h1>
+                <p>Quem foi o criador das três formas normais para normalização de banco de dados?</p>
+            </div>
+
+            <div class="fundo_pergunta">
+                <img src="img/logo.png">
+            </div>
+        </div>
+
+        <div class="respostas">
+            <div class="opcoes"><a onclick=" openModalTrue() ">A. Edgar F. Codd</a></div>
+            <div class="opcoes"><a onclick=" openModalFalse() ">B. Charles Babbage</a></div>
+            <div class="opcoes"><a onclick=" openModalFalse() ">C. Tim Berners-Lee</a></div>
+            <div class="opcoes"><a onclick=" openModalFalse() ">D. Tim Paterson</a></div>
+        </div>
+
+        <div class="modal" id="modalTrue">
+
+            <div class="container-modal">
+                <h1>CORRETO!!!</h1>
+                <img src="img/certo.png">
+                <div>
+                    <p>
+                        Edgar F. Cood criou as regras da normalização de banco de dados entre 1960 a 1970 com o objetivo de acabar com as anomalias dos bancos de dados.
+                    </p>
+                </div>
+    
+                <a href="pergunta1.html" id="botao">>Continuar</a>
+            </div>
+        </div>
+
+        <div class="modal" id="modalFalse">
+
+            <div class="container-modal">
+                <h1>ERRADO!!!</h1>
+                <img src="img/errado.png">
+                <div>
+                    <p>
+                        Edgar F. Cood criou as regras da normalização de banco de dados entre 1960 a 1970 com o objetivo de acabar com as anomalias dos bancos de dados.
+                    </p>
+                </div>
+    
+                <a href="pergunta1.html" id="botao">>Continuar</a>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
