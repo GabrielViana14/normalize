@@ -24,17 +24,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h1{
+    font-size: 2.9em;
+}
 p{
-    font-size: 1.2em;
+    font-size: 2.3em;
     font-weight: bold;
 }
 main{
     width: 80%;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #logo{
@@ -64,28 +68,17 @@ main{
 .pergunta{
     position: relative;
     width: 100%;
-    height: 40vh;
     background: rgba(0, 255, 102, 0.38);
-    padding: 1.5em;
+    padding: 3em 1.5em;
     border-radius: 2px;
-}
-
-.pergunta div:first-child{
     display: flex;
     flex-direction: column;
-    gap: 2.5em;
+    gap: 12px;
 }
 
-.fundo_pergunta{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
 
-.fundo_pergunta img{
-    width: 40vw;
+.logo{
+    width: 25vw;
 }
 
 
@@ -105,7 +98,7 @@ main{
 
 .opcoes a{
     color: black;
-    font-size: 1.2em;
+    font-size: 2.3em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -151,15 +144,15 @@ main{
     place-items: center;
     position: absolute;
     bottom: -5%;
-    right: -5%;
+    right: -10%;
     transform: translate( 0, 0);
-    width: 15%;
+    width: 25%;
     height: 10%;
     background-color: #D2BF19;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #000000;
     font-weight: bold;
     transition: .5s ease-in;
