@@ -68,8 +68,8 @@ main{
 .pergunta{
     position: relative;
     width: 100%;
-    background: rgba(0, 255, 102, 0.38);
-    padding: 3em 1.5em;
+    background: rgba(0, 255, 102, 0.7);
+    padding: 2em 1.5em;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ main{
 
 .opcoes{
     width: 100%;
-    background: rgba(0, 255, 102, 0.38);
+    background: rgba(0, 255, 102, 0.7);
     padding: 12px 1.5em;
 }
 
@@ -127,7 +127,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 70vw;
     height: 80vh;
     background: rgba(0, 255, 102, 0.38);
@@ -136,7 +136,7 @@ main{
 }
 
 .container-modal img{
-    width: 30%;
+    width: 20%;
 }
 
 #botao{

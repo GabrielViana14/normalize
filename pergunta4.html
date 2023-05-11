@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta número 4</title>
+    <link rel="stylesheet" href="style.css">
+</style>
+</head>
+<body>
+
+    <main>
+        <img src="img/logo.png" class="logo">
+        <div class="pergunta">
+            <h1> Pergunta 4 </h1>
+            <p>Usando _______ permite que as tabelas funcionem independentemente umas das outras, entrando assim na 3° regra normativa</p>
+        </div>
+
+        <div class="respostas">
+            <div class="opcoes"><a onclick=" openModalTrue() ">A. Estar na 1fn</a></div>
+            <div class="opcoes"><a onclick=" openModalFalse() ">B. Estar na 1fn</a></div>
+            <div class="opcoes"><a onclick=" openModalFalse() ">C. Estar na 1fn</a></div> 
+            <div class="opcoes"><a onclick=" openModalFalse() ">D. Estar na 1fn</a></div>
+        </div>
+
+        <div class="modal" id="modalTrue">
+
+            <div class="container-modal">
+                <h1>CORRETO!!!</h1>
+                <img src="img/certo.png">
+                <div>
+                    <p>
+                        A primeira forma normal tenta resolver um dos maiores problemas de banco de dados que é repetição e a desorganização deles.
+                    </p>
+                </div>
+    
+                <a href="pergunta5.html" id="botao">>Continuar</a>
+            </div>
+        </div>
+
+        <div class="modal" id="modalFalse">
+
+            <div class="container-modal">
+                <h1>ERRADO!!!</h1>
+                <img src="img/errado.png">
+                <div>
+                    <p>
+                        A primeira forma normal tenta resolver um dos maiores problemas de banco de dados que é repetição e a desorganização deles.
+                    </p>
+                </div>
+    
+                <a href="pergunta5.html" id="botao">>Continuar</a>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
