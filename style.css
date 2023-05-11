@@ -32,6 +32,14 @@ p{
     font-size: 2.3em;
     font-weight: bold;
 }
+
+#modalTrue strong{
+    color: green;
+}
+
+#modalFalse strong{
+    color: red;
+}
 main{
     width: 80%;
     height: 95vh;
