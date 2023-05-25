@@ -19,17 +19,15 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(67, 63, 239, 0.53), rgba(67, 63, 239, 0.53)), #5EE0FC;
-    background-image: url(img/aa.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgb(0, 2, 122),rgba(0, 4, 248), rgba(0, 67, 252))
+   
 }
 
 h1{
-    font-size: 2.9em;
+    font-size: 2em;
 }
 p{
-    font-size: 2.3em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -47,6 +45,20 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.agradecimento{
+    color: transparent;
+    font-size: 5em;
+    -webkit-text-stroke: 1px black;
+    filter: drop-shadow(0px 0px 5px yellow);
+}
+
+.aplauso{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
 }
 
 #logo{
@@ -76,17 +88,24 @@ main{
 .pergunta{
     position: relative;
     width: 100%;
-    background: rgba(0, 255, 102, 0.7);
+    background: linear-gradient(rgb(184, 0, 0),rgb(255, 0, 0), rgb(184, 0, 0));
     padding: 2em 1.5em;
-    border-radius: 2px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-style: groove;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    color: #FFFFFF;
 }
+
+
+
 
 
 .logo{
     width: 25vw;
+
 }
 
 
@@ -100,13 +119,25 @@ main{
 
 .opcoes{
     width: 100%;
-    background: rgba(0, 255, 102, 0.7);
+    background: linear-gradient(rgb(199, 196, 0),rgb(255, 251, 0), rgb(199, 196, 0));
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-style: groove;
+    padding: 12px 1.5em;
+}
+
+.opcoes:hover{
+    width: 100%;
+    background: linear-gradient(rgb(199, 196, 190),rgb(255, 252, 190), rgb(199, 196, 190));
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-style: groove;
     padding: 12px 1.5em;
 }
 
 .opcoes a{
     color: black;
-    font-size: 2.3em;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -116,10 +147,7 @@ main{
 /*  Modal - Opção Correta   */
 
 .modal{
-    background: linear-gradient(0deg, rgba(67, 63, 239, 0.53), rgba(67, 63, 239, 0.53)), #5EE0FC;
-    background-image: url(img/aa.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgb(0, 2, 122),rgba(0, 4, 248), rgba(0, 67, 252));
     z-index: 1;
     position: absolute;
     top: 0;
