@@ -117,8 +117,16 @@ main{
     gap: 1em;
 }
 
-.opcoes{
+
+
+.opcoes a{
+    color: black;
+    display: inline-flex;
     width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
     background: linear-gradient(rgb(199, 196, 0),rgb(255, 251, 0), rgb(199, 196, 0));
     border-radius: 20px;
     border-color: #FFFFFF;
@@ -126,21 +134,13 @@ main{
     padding: 12px 1.5em;
 }
 
-.opcoes:hover{
+.opcoes a:hover{
     width: 100%;
     background: linear-gradient(rgb(199, 196, 190),rgb(255, 252, 190), rgb(199, 196, 190));
     border-radius: 20px;
     border-color: #FFFFFF;
     border-style: groove;
     padding: 12px 1.5em;
-}
-
-.opcoes a{
-    color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 
